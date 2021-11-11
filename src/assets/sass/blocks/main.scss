@@ -1,0 +1,76 @@
+.main {
+    padding: 43px 0 40px;
+}
+
+.main__burger {
+    width: 60px;
+    height: 23px;
+    position: relative;
+    top: 50%;
+    cursor: pointer;
+    margin-right: 24px;
+}
+
+.main__burger::before,
+.main__burger::after {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    width: 45px;
+    height: 3px;
+    border-radius: 6px;
+    right: 0;
+}
+
+.main__burger::after {
+    width: 45px;
+}
+
+.main__burger::before {
+    top: 0;
+}
+
+.main__burger-line {
+    background-color: #fff;
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    border-radius: 5px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main__burger::after {
+    bottom: 0;
+}
+
+.main-wrapper {
+    padding: 0 32px 31px 32px;
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.main-content-title {
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 44px;
+}
+
+.main-content-text {
+    font-size: 1.125rem;
+    line-height: 21px;
+}
+
+.main-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__box-conteiner {
+    font-size: 4.5rem;
+    line-height: 85px;
+    color: #979797;
+}
