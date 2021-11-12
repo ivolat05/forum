@@ -1,0 +1,96 @@
+.chema__title {
+    padding: 19px 19px 23px 19px;
+    background: #031d40;
+    border-radius: 10px;
+    margin-bottom: 22px;
+}
+
+.chema__title-title {
+    padding-bottom: 5px;
+
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 29px;
+}
+
+.chema__title-text {
+    font-size: 0.875rem;
+    line-height: 17px;
+    color: #969696;
+}
+
+.chema__wrapp {
+    padding: 16px 25px 33px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #031d40;
+    border-radius: 1px;
+    margin-bottom: 27px;
+}
+
+.chema-avatar {
+    width: 142px;
+    height: 142px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff;
+
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 58px;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.chema-user {
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 22px;
+    color: #969696;
+    padding-bottom: 3px;
+}
+
+.shema-status {
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 21px;
+}
+
+.chema__wrapp-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 47px;
+}
+
+.chema__inner-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 18px;
+}
+
+.chema-span {
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 21px;
+    color: #969696;
+}
+
+.chema-span-2 {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 22px;
+    color: #969696;
+}
+
+.chema__inner-text {
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 21px;
+}
