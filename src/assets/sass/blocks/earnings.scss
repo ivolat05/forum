@@ -1,0 +1,25 @@
+.earnings {
+    margin-bottom: 34px;
+}
+.earnings__wrapp {
+    padding: 19px 19px 41px 19px;
+    background: #031d40;
+    border-radius: 10px;
+}
+
+.earnings__wrapp-link {
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 44px;
+    transition: 0.2s;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.earnings__wrapp-text {
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 17px;
+    color: #969696;
+}

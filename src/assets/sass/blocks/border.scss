@@ -1,0 +1,11 @@
+.border__wrapp {
+    height: 41px;
+    background: #031d40;
+}
+
+.border-line {
+    height: 6px;
+    background: linear-gradient(270deg, #006bff 0%, #6da7f9 27.25%, #6da7f9 75.97%, #006bff 100.6%),
+        linear-gradient(270deg, #006bff 0%, #6da7f9 75.97%, #006bff 100.6%);
+    border-radius: 2px;
+}
