@@ -12,9 +12,10 @@ html {
 }
 
 body {
+    min-height: 100vh;
     font-family: "Gilroy";
     font-weight: 500;
-    background: linear-gradient(180deg, #001126 0%, #01002d 100%);
+    background: linear-gradient(180deg, #001126 0%, #01002d 100%) no-repeat center top;
 }
 
 .container {
@@ -31,6 +32,7 @@ a {
     text-decoration: none;
 }
 
+@import "../sass/blocks/page.scss";
 @import "../sass/blocks/header.scss";
 @import "../sass/blocks/main.scss";
 @import "../sass/blocks/breadcrumb.scss";
@@ -40,3 +42,4 @@ a {
 @import "../sass/blocks/messege.scss";
 @import "../sass/blocks/footer.scss";
 @import "../sass/blocks/copyright.scss";
+@import "../sass/blocks/entrance.scss";
