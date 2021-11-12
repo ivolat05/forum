@@ -1,7 +1,9 @@
 .navigation {
     margin-bottom: 20px;
 }
-
+.navigation-2 {
+    margin-bottom: 34px;
+}
 .navigation-list {
     display: flex;
     align-items: center;
@@ -39,4 +41,29 @@
     &:hover {
         background: url("../../assets/img/nav.svg") no-repeat center right 15px, #006bff;
     }
+}
+
+.navigation-inner {
+    background: #4685d1;
+    border-radius: 6px;
+    padding: 7px 21px;
+
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 21px;
+}
+
+.navigation__link {
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 21px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.navigation__wrapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

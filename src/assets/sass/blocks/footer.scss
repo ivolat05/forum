@@ -1,0 +1,46 @@
+.footer-wrapp {
+    background: #031d40;
+    border: 1px solid #000000;
+    border-radius: 1px;
+    padding: 45px 63px 47px 66px;
+    display: flex;
+    align-items: baseline;
+    justify-content: start;
+}
+
+.footer-title {
+    font-size: 1.125rem;
+    line-height: 21px;
+    padding-bottom: 11px;
+}
+
+.footer-text,
+.footer-link,
+.footer-email {
+    font-size: 0.875rem;
+    line-height: 16px;
+    color: #dddada;
+}
+
+.footer-email {
+    padding-top: 15px;
+}
+
+.footer-link {
+    padding-bottom: 3px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.footer-col-1 {
+    width: 358px;
+}
+.footer-col-2 {
+    margin-left: 91px;
+    width: 143px;
+}
+.footer-col-3 {
+    margin-left: 91px;
+    width: 358px;
+}

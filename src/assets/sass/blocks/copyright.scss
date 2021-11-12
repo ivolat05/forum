@@ -1,0 +1,20 @@
+.copyright {
+    background: linear-gradient(180deg, #001126 0%, #01002d 100%);
+    padding: 45px 0;
+
+    font-size: 1.125rem;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright-link {
+    font-size: 1.125rem;
+    line-height: 21px;
+    color: #00d1ff;
+    transition: 0.4s;
+    padding-left: 22px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
