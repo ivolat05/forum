@@ -1,0 +1,32 @@
+.title-wrapp {
+    background: #031d40;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 88px 23px 19px;
+    margin-bottom: 20px;
+}
+
+.title__wrapp-title {
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 44px;
+}
+
+.title-btn {
+    padding: 7px 9px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #006bff;
+    border-radius: 6px;
+
+    font-size: 1.125rem;
+    line-height: 21px;
+    transition: 0.4s;
+
+    &:hover {
+        background: #4685d1;
+    }
+}

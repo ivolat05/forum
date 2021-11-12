@@ -1,0 +1,127 @@
+.forum-col-2 {
+    width: 299px;
+}
+
+.forum-2-title {
+    font-size: 1.125rem;
+    line-height: 21px;
+    padding-bottom: 10px;
+}
+
+.forum-online {
+    width: 299px;
+    background: #031d40;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 17px;
+}
+
+.forun-online-head {
+    padding: 15px 17px 10px 17px;
+}
+
+.forun-online-link {
+    font-size: 0.875rem;
+    line-height: 16px;
+    color: #afafaf;
+    transition: 0.4s;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.forun-online-body {
+    background: #0f3263;
+    color: #afafaf;
+
+    font-size: 0.875rem;
+    line-height: 16px;
+    padding: 11px 17px 20px 17px;
+}
+
+.forum-mess {
+    background: #0f3263;
+    border-radius: 10px;
+}
+
+.forum-mess-box {
+    padding: 12px 20px 21px 17px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.forum-mess-link {
+    transition: 0.4s;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.forum-mess-avatar {
+    width: 23px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #c4c4c4;
+
+    font-size: 0.75rem;
+    line-height: 14px;
+    color: #000;
+    margin-right: 8px;
+}
+
+.forum-mess-link-title {
+    display: block;
+    width: 135px;
+    font-size: 0.875rem;
+    line-height: 16px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.forum-mess-link {
+    font-size: 0.75rem;
+    line-height: 14px;
+    color: #acacac;
+}
+
+.forum-mess-head {
+    width: 230px;
+}
+
+.forum-mess-box:nth-last-child(1) {
+    border-bottom: none;
+}
+
+.forum-statist {
+    background: #0f3263;
+    border-radius: 10px;
+    padding: 12px 13px 14px 17px;
+    margin-bottom: 21px;
+}
+
+.forum-statist-row {
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.forum-statist-span {
+    font-size: 0.875rem;
+    line-height: 16px;
+    color: #a7a7a7;
+}
+
+.forum-statist-link {
+    font-size: 0.875rem;
+    line-height: 16px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
