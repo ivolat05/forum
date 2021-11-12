@@ -1,0 +1,78 @@
+.chapter__col-link {
+    padding-right: 78px;
+    transition: 0.4s;
+    line-height: 19px;
+    &:hover {
+        text-decoration: underline;
+    }
+    &::before {
+        content: url("../../assets/img/plus.svg");
+    }
+}
+
+.chapter__col-link:nth-last-child(1) {
+    padding-right: 0;
+}
+
+.chapter__col-box {
+    padding-right: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chapter__col-box:nth-last-child(1) {
+    padding-right: 0;
+}
+.chapter__col-box:hover {
+    text-decoration: none;
+}
+.chapter__col-box:hover .chapter__box-span-2 {
+    text-decoration: underline;
+}
+
+.chapter__box-span-2 {
+    font-size: 0.875rem;
+    color: #898989;
+}
+
+.chapter__box-span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 29px;
+}
+.chapter__row-col-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chapter-avatar {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c4c4c4;
+    border-radius: 50%;
+
+    font-size: 1.125rem;
+    line-height: 21px;
+    color: #000;
+    margin-right: 8px;
+}
+
+.chapter__row-col-3 {
+    display: flex;
+}
+
+.chapter-box-link {
+    font-size: 0.875rem;
+    line-height: 16px;
+}
+
+.chapter-box-span {
+    font-size: 0.75rem;
+    line-height: 14px;
+    color: #acacac;
+}
