@@ -25,6 +25,12 @@ body {
     margin: 0 auto;
 }
 
+.container-2 {
+    max-width: 1457px;
+    padding: 0 89px;
+    margin: 0 auto;
+}
+
 ul {
     list-style: none;
 }
@@ -61,3 +67,4 @@ a {
 @import "../sass/blocks/chapter-earnings.scss";
 @import "../sass/blocks/chema.scss";
 @import "../sass/blocks/option.scss";
+@import "../sass/blocks/regulations.scss";

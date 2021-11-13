@@ -5,6 +5,11 @@
 .main-option {
     padding: 89px 0 50px;
 }
+.main-regulation {
+    .main-option {
+        padding: 89px 0 75px;
+    }
+}
 
 .main__burger {
     width: 60px;
@@ -54,6 +59,11 @@
     display: flex;
     justify-content: start;
     align-items: baseline;
+}
+.container-2 {
+    .main-wrapper {
+        padding: 0 0 31px 0;
+    }
 }
 
 .main-content-title {

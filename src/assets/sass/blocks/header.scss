@@ -17,17 +17,11 @@
     background: rgba(0, 0, 0, 0);
     border-radius: 0;
     border-bottom: 1px solid #fff;
-    padding: 66px 0 38px;
-    .bnt {
-        padding: 0;
-    }
-    .btn-reg {
-        padding-left: 40px;
-    }
+    padding: 59px 0 31px;
 
-    .btn:hover {
-        background: rgba(0, 0, 0, 0);
-        text-decoration: underline;
+    .header__wrapp-col-2 {
+        position: relative;
+        right: -20px;
     }
 }
 
