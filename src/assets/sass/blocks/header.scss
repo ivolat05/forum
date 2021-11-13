@@ -1,6 +1,9 @@
 .header {
     border-bottom: 1px solid #fff;
 }
+.header-2 {
+    border-bottom: none;
+}
 .header__wrapp {
     display: flex;
     justify-content: space-between;
@@ -8,6 +11,24 @@
     background: #031d40;
     border-radius: 10px;
     padding: 25px 102px 20px 86px;
+}
+
+.header__wrapp-2 {
+    background: rgba(0, 0, 0, 0);
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    padding: 66px 0 38px;
+    .bnt {
+        padding: 0;
+    }
+    .btn-reg {
+        padding-left: 40px;
+    }
+
+    .btn:hover {
+        background: rgba(0, 0, 0, 0);
+        text-decoration: underline;
+    }
 }
 
 .header__wrapp-col,
@@ -53,4 +74,49 @@
 .btn-reg {
     padding: 7px 25px;
     border-radius: 6px;
+}
+.header__search {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-right: 43px;
+}
+
+.header__search-input {
+    width: 175px;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 21px;
+    border: none;
+
+    background: rgba(0, 0, 0, 0);
+    &::placeholder {
+        color: #fff;
+    }
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+.header__search-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0);
+}
+
+.header-select {
+    background: url("../../assets/img/heade-2.svg") no-repeat center right, rgba(0, 0, 0, 0);
+    appearance: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding-right: 13px;
+    border: none;
+    outline: none;
+    option {
+        background: #001126;
+    }
 }

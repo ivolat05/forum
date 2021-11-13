@@ -9,13 +9,14 @@ html {
 * {
     box-sizing: border-box;
     color: #fff;
+    font-family: "Gilroy";
+    font-weight: 500;
 }
 
 body {
     min-height: 100vh;
-    font-family: "Gilroy";
-    font-weight: 500;
-    background: linear-gradient(180deg, #001126 0%, #01002d 100%) no-repeat center top;
+
+    background: linear-gradient(180deg, #001126 0%, #01002d 100%) no-repeat center center, #01002d;
 }
 
 .container {
@@ -59,3 +60,4 @@ a {
 @import "../sass/blocks/chapter-secret.scss";
 @import "../sass/blocks/chapter-earnings.scss";
 @import "../sass/blocks/chema.scss";
+@import "../sass/blocks/option.scss";
