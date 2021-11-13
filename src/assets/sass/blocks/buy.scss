@@ -1,0 +1,104 @@
+.buy__table-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buy-table-head {
+    background: #031d40;
+
+    .buy__table-row {
+        padding: 14px 89px 11px;
+    }
+}
+
+.buy-table-body {
+    .buy__table-row {
+        padding: 25px 89px 25px;
+    }
+    .buy__table-row:nth-child(2n + 2) {
+        background: #031d40;
+    }
+}
+
+.buy-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #c4c4c4;
+    position: relative;
+    margin-right: 13px;
+}
+
+.buy-avatar-span {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #22ac00;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.buy__col-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buy-table-col:nth-child(1) {
+    width: 193px;
+}
+.buy-table-col:nth-child(2) {
+    width: 66px;
+}
+.buy-table-col:nth-child(3) {
+    width: 280px;
+}
+.buy-table-col:nth-child(4) {
+    width: 205px;
+}
+.buy-table-col:nth-child(5) {
+    width: 100px;
+}
+.buy-table-col:nth-child(6) {
+    width: 75px;
+}
+
+.buy-table-head {
+    .buy-table-col {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #ffffff;
+    }
+}
+
+.buy-table-body {
+    .buy-table-col {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #ffffff;
+    }
+    .--green {
+        color: #22ac00;
+    }
+}
+
+.buy-table-p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #aaaaaa;
+}
+
+.buy__status {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #b1b1b1;
+}

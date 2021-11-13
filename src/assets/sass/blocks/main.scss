@@ -1,5 +1,5 @@
 .main {
-    padding: 43px 0 40px;
+    padding: 40px 0 40px;
 }
 
 .main-option {
@@ -11,6 +11,13 @@
 
 .main-finance {
     padding: 100px 0 57px;
+}
+
+.main-buy {
+    padding: 89px 0 47px;
+    .main-wrapper {
+        padding: 0;
+    }
 }
 
 .main__burger {
@@ -62,11 +69,6 @@
     justify-content: start;
     align-items: baseline;
 }
-.container-2 {
-    .main-wrapper {
-        padding: 0 0 31px 0;
-    }
-}
 
 .main-content-title {
     font-weight: bold;
@@ -95,10 +97,12 @@
     width: 301px;
 }
 
-.main-content {
-    display: flex;
-    align-items: center;
-    justify-content: start;
+.main-finance {
+    .main-content {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
 }
 
 .main-list {
