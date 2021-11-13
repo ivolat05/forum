@@ -1,0 +1,129 @@
+.finance__wrapp {
+    padding-right: 89px;
+    padding-left: 175px;
+    padding-bottom: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.finance-btn {
+    background: #4685d1;
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    border: none;
+    outline: none;
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    padding: 11px 25px;
+}
+
+.finance-select {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+
+    padding: 11px 43px 11px 24px;
+
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+
+    background: url("../../assets/img/arrow.svg") no-repeat center right 13px, none;
+    appearance: none;
+}
+
+.finance-option {
+    background: #031d40;
+}
+
+.finance-table {
+    margin-bottom: 27px;
+}
+
+.finance__table-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 89px 27px 89px;
+}
+
+.finance-table-head {
+    .finance__table-row {
+        background: #031d40;
+        padding: 14px 89px 12px 89px;
+    }
+
+    .finance-table-col {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #ffffff;
+    }
+
+    .finance-table-col:nth-last-child(1) {
+        text-align: right;
+    }
+
+    .finance-table-col:nth-child(1),
+    .finance-table-col:nth-child(2) {
+        width: 30%;
+    }
+
+    .finance-table-col:nth-child(3),
+    .finance-table-col:nth-child(4) {
+        width: 15%;
+    }
+}
+
+.finance-table-body {
+    .finance__table-row:nth-child(2n + 2) {
+        background: #031d40;
+    }
+    .finance-table-col {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #ffffff;
+    }
+
+    .finance-table-p {
+        color: #aaaaaa;
+    }
+
+    .--green {
+        line-height: 22px;
+        color: #22ac00;
+    }
+
+    .finance-table-col:nth-last-child(1) {
+        text-align: right;
+    }
+
+    .finance-table-col:nth-child(1),
+    .finance-table-col:nth-child(2) {
+        width: 30%;
+    }
+
+    .finance-table-col:nth-child(3),
+    .finance-table-col:nth-child(4) {
+        width: 15%;
+    }
+}
+
+.finance-text {
+    padding: 0 89px 27px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #6d6d6d;
+}

@@ -6,9 +6,11 @@
     padding: 89px 0 50px;
 }
 .main-regulation {
-    .main-option {
-        padding: 89px 0 75px;
-    }
+    padding: 89px 0 75px;
+}
+
+.main-finance {
+    padding: 100px 0 57px;
 }
 
 .main__burger {
@@ -91,4 +93,36 @@
 
 .main__box-img {
     width: 301px;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.main-list {
+    display: flex;
+}
+
+.main-list-inner {
+    padding-left: 34px;
+
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #ffffff;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        top: 50%;
+        border-radius: 50%;
+        transform: translateY(-50%);
+        background: #c4c4c4;
+        left: 15px;
+    }
 }
