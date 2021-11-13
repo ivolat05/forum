@@ -27,16 +27,17 @@
     border-right: 1px solid #244675;
 }
 .messenger__body-row {
+    width: 100%;
     padding: 24px 9px 24px 15px;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
 
     border-bottom: 1px solid #244675;
 }
 
 .messenger-message {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -110,6 +111,10 @@
     .messenger__body-row {
         border-bottom: none;
         padding: 16px 23px 13px 32px;
+    }
+
+    .messenger-message {
+        width: 100%;
     }
 }
 
