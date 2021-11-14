@@ -1,0 +1,174 @@
+.game__nav-link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #4685d1;
+    padding: 3px;
+}
+.game__nav {
+    position: absolute;
+    top: 29px;
+}
+.game-wrapp {
+    position: relative;
+}
+
+.game-list-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #ffffff;
+    padding: 29px 0 29px;
+}
+
+.game__list-wrapp {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.game__list-box {
+    background: #ffffff;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.25);
+    border-radius: 25px;
+    min-width: 221px;
+    height: 252px;
+    margin: 0 15px 55px;
+    padding: 28px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+.game__box-inner {
+    min-height: 93px;
+}
+
+.game-box-title {
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    text-align: center;
+    display: block;
+}
+
+.game-row-link:nth-child(2) {
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 3px;
+        height: 3px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -1px;
+        border-radius: 50%;
+        background: #7ba9de;
+    }
+}
+.game-row-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.05em;
+
+    color: #7ba9de;
+    display: block;
+    padding: 0 5px;
+}
+
+.game__box-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game__list-wrapp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.game-buy-link {
+    width: 25%;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #061967;
+    transition: 0.4s;
+    padding: 9px 0;
+    width: 25%;
+    &:hover {
+        background: #061967;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.game-buy-link-active {
+    background: #061967;
+    color: #fff;
+}
+.game-buy {
+    overflow: hidden;
+    width: 170px;
+    position: absolute;
+    bottom: -17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #d7d7d7;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+}
+
+.game__box-img {
+    margin: 10px auto;
+    width: 157px;
+    display: block;
+}
+
+.game-list-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 125px;
+}
+
+.warf {
+    width: 44%;
+}
+
+.game-buy-fix {
+    width: 150px;
+    .game-buy-link {
+        width: 33.33%;
+    }
+}
+
+.game-buy-fix-2 {
+    width: 90px;
+    .game-buy-link {
+        width: 50%;
+    }
+}
+
+.game-list-container:nth-child(2n + 1) {
+    background: #031d40;
+}
+
+.game-list-title {
+    max-width: 1020px;
+    margin: 0 auto;
+}

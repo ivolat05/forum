@@ -4,6 +4,12 @@
 .header-2 {
     border-bottom: none;
 }
+.header-3 {
+    border: none;
+    .header__wrapp-2 {
+        border: none;
+    }
+}
 .header__wrapp {
     display: flex;
     justify-content: space-between;
