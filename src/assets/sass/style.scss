@@ -31,6 +31,33 @@ body {
     margin: 0 auto;
 }
 
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1350px;
+    }
+}
+
 ul {
     list-style: none;
 }
@@ -79,3 +106,4 @@ a {
 @import "../sass/blocks/main-2.scss";
 @import "../sass/blocks/game.scss";
 @import "../sass/blocks/chat.scss";
+@import "../sass/blocks/media.scss";

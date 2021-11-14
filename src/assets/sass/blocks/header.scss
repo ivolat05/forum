@@ -32,9 +32,15 @@
 }
 
 .header__wrapp-col,
-.header__wrapp-col-2 {
+.header__wrapp-col-2,
+.header__inner {
     display: flex;
     align-items: center;
+}
+
+.header__inner {
+    width: 100%;
+    justify-content: space-between;
 }
 
 .nav__list {
