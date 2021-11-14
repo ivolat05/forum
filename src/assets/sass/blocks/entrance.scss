@@ -253,12 +253,14 @@
 }
 
 .captcha-box {
+    display: block;
     width: 30px;
     height: 30px;
     border: 2px solid #d3d3d3;
     background: #fff;
     border-radius: 2px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .captcha-box-img {
@@ -308,4 +310,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.captcha-label {
+    position: relative;
+}
+
+.captcha-check {
+    position: absolute;
+    opacity: 0;
+}
+
+.captcha-check:checked + .captcha-box {
+    border: none;
+    .captcha-box-img {
+        opacity: 1;
+    }
 }
