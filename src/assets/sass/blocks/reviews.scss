@@ -1,0 +1,139 @@
+.reviews__wrapp {
+    padding-left: 175px;
+    margin-bottom: 213px;
+}
+
+.reviews__wrapp-inner {
+    max-width: 520px;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 37px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.reviews__container-inner {
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reviews__box-title {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #b0b0b0;
+    padding-bottom: 5px;
+}
+
+.reviews__ball {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+.reviews__ball-span {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    padding-left: 16px;
+}
+
+.reviews__row {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.reviews__row-line {
+    padding-left: 4px;
+    width: 54px;
+    border: 1px solid rgba(255, 255, 255, 0.27);
+}
+.reviews__row-line-active {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.reviews__subtitle {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #b0b0b0;
+    padding-bottom: 7px;
+}
+
+.reviews-select {
+    padding: 12px 48px 12px 21px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background: url("../../assets/img/arrow.svg") no-repeat center right 20px, none;
+
+    appearance: none;
+    option {
+        background: #031d40;
+    }
+}
+
+.reviews-mess-box {
+    width: 85%;
+}
+
+.reviews-mess-row {
+    max-width: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .avatar {
+        width: 63px;
+        height: 63px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        color: #ffffff;
+
+        margin-right: 0;
+    }
+}
+
+.reviews-mess-col {
+    .reviews__row-img {
+        width: 21px;
+        height: 21px;
+    }
+}
+
+.reviews-message {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+
+    color: #a4a4a4;
+}
+
+.reviews-mess-col {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.reviews-mess-col-2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #7a7a7a;
+}
+
+.reviews-mess-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

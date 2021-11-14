@@ -104,6 +104,7 @@
 }
 
 .message-window {
+    overflow: hidden;
     overflow-y: auto;
     height: 470px;
     border: 1px solid #244675;
