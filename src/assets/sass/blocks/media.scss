@@ -2,6 +2,14 @@
     .main__box-img {
         width: 266px;
     }
+
+    .chapter__col-link {
+        padding-right: 5px;
+    }
+
+    .chapter__row-col {
+        width: 40%;
+    }
 }
 @media (max-width: 1200px) {
     .main__box-img {
@@ -40,9 +48,36 @@
         display: flex;
         flex-direction: column;
     }
+
+    .chapter__wrapp {
+        padding-left: 10px;
+    }
+    .forum-col-2,
+    .forum-online {
+        width: 230px;
+        margin-left: 10px;
+    }
+
+    .forum-col {
+        width: 685px;
+    }
 }
 
 @media (max-width: 992px) {
+    .title-wrapp {
+        padding: 19px 15px 23px 15px;
+    }
+    .forum-col-2 {
+        margin-left: 0;
+        width: 80%;
+        margin: 0 auto 20px;
+    }
+    .forum-mess-head {
+        width: 90%;
+    }
+    .forum-online {
+        width: 100%;
+    }
     .footer-wrapp {
         flex-direction: column;
         padding: 30px 15px;
@@ -80,12 +115,12 @@
         top: 70px;
         right: 0;
         flex-direction: column;
-        transition: 0.4s;
         transform: translateY(-300%);
         overflow: auto;
     }
 
     .header__active {
+        transition: 0.4s;
         transform: translateY(0);
     }
     .nav__list {
@@ -99,6 +134,14 @@
         display: block;
         padding-right: 0;
         padding-bottom: 30px;
+    }
+
+    .forum-wrapp {
+        flex-direction: column-reverse;
+    }
+
+    .forum-col {
+        width: 100%;
     }
 }
 @media (max-width: 768px) {
@@ -117,9 +160,34 @@
     .messege-col-2 .messege-row-2 {
         width: 112px;
     }
+
+    .chapter__row-col-3 {
+        display: none;
+    }
+    .chapter__row-col {
+        width: 80%;
+    }
 }
 
 @media (max-width: 576px) {
+    .chapter-row {
+        padding-left: 15px;
+        &::before {
+            content: "";
+        }
+    }
+    .chapter-title {
+        padding-left: 15px;
+    }
+    .title__wrapp-title {
+        font-size: 1rem;
+    }
+    .chapter__row-col {
+        width: 100%;
+    }
+    .chapter__col-box {
+        display: none;
+    }
     .navigation__wrapp {
         flex-direction: column-reverse;
         align-items: start;
