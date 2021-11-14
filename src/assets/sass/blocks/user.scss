@@ -1,0 +1,171 @@
+.user {
+    margin-bottom: 61px;
+}
+
+.user-wrapp {
+    .avatar {
+        width: 248px;
+        height: 248px;
+        margin: 74px 0 21px 89px;
+    }
+}
+
+.user-wrapp-inner {
+    background: #031d40;
+    padding: 25px 0 25px 89px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 28px;
+
+    .reviews__wrapp-inner {
+        width: 464px;
+        border: none;
+        justify-content: space-between;
+    }
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+    margin-bottom: 22px;
+}
+
+.user-name-active {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #22ac00;
+}
+
+.user-reg {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    padding-bottom: 10px;
+}
+
+.user-data {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #ffffff;
+}
+
+.user__inner-col:nth-child(1) {
+    padding-right: 95px;
+}
+
+.user-info {
+    padding: 0 89px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.user-info-title {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #b0b0b0;
+    padding: 22px 0;
+}
+
+.user-info-mess {
+    width: 50%;
+    background: #031d40;
+    border: 1px solid #244675;
+    .messenger-avatar {
+        margin-right: 0;
+    }
+
+    .messenger-message {
+        width: 88%;
+    }
+}
+
+.user-info-col {
+    width: 45%;
+}
+
+.user-reviews {
+    width: 100%;
+    padding: 19px 20px;
+    background: #031d40;
+    .reviews__wrapp-inner {
+        border-top: none;
+        padding: 0 0 41px 0;
+    }
+    .reviews-mess-row {
+        width: 100%;
+        padding: 0;
+    }
+    .avatar {
+        margin: 0;
+        width: 63px;
+        height: 63px;
+    }
+}
+
+.user-table {
+    padding: 9px 24px 28px 22px;
+    background: #031d40;
+}
+
+.user__table-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #244675;
+}
+
+.user__table-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+    padding-bottom: 8px;
+}
+
+.user__table-head {
+    .user__table-row {
+        padding: 14px 0 10px;
+    }
+}
+
+.user__table-body {
+    .user__table-row {
+        padding: 19px 0 13px;
+    }
+}
+
+.user-flex {
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+
+    .choice-col-wrapp {
+        padding-left: 4px;
+        position: relative;
+        top: -5px;
+    }
+}
+
+.user__table-col {
+    width: 25%;
+}
+
+.user__table-col:nth-last-child(1),
+.user__table-col:nth-last-child(2) {
+    text-align: right;
+}
+.user__table-col {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+}
