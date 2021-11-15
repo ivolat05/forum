@@ -51,13 +51,13 @@
             </div>
         </div>    <div class="login">
             <div class="login-head">
-                <div class="login-tab">Войти</div>
-                <div class="login-tab login-active">
+                <div class="login-tab" data-tab='#tab-1'>Войти</div>
+                <div class="login-tab login-active" data-tab='#tab-2'>
                     Зарегистрироваться
                 </div>
             </div>
         
-            <div class="login-list">
+            <div id='tab-1' class="login-list">
                 <div class="login-title">
                     Через соцсети:
                 </div>
@@ -111,7 +111,7 @@
                     Войти
                 </button>
             </div>
-            <div class="login-list login-list-active">
+            <div id='tab-2' class="login-list login-list-active">
         
                 <div class="login-title">
                     Через соцсети:
@@ -198,6 +198,8 @@
         
         </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="assets/js/app.min.js"></script>
 </body>
 

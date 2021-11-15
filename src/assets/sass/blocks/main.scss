@@ -10,7 +10,8 @@
 }
 
 .main-finance {
-    padding: 100px 0 57px;
+    padding-top: 89px;
+    padding-bottom: 0;
 }
 
 .main-choise {
@@ -217,4 +218,10 @@
 
 .menu__burger {
     display: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    z-index: 101;
 }

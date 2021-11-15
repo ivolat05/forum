@@ -1,5 +1,6 @@
 @import "../sass/vendor/font.scss";
 @import "../sass/vendor/reset.scss";
+@import "../sass/vendor/magnific-popup.scss";
 
 html {
     font-size: 16px;
@@ -17,6 +18,15 @@ body {
     min-height: 100vh;
 
     background: linear-gradient(180deg, #001126 0%, #01002d 100%) no-repeat center center, #01002d;
+}
+
+.white-popup {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
 }
 
 @media (min-width: 576px) {

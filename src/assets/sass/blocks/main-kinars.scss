@@ -83,11 +83,15 @@
 
 .select-active {
     display: flex;
-    background: url("../../assets/img/s.png") no-repeat center right 23px, none;
+    background: url("../../assets/img/s.png") no-repeat center right 23px, rgba(0, 0, 0, 0);
 }
-.form-select:hover {
+
+.form-hover:hover {
     .form__select-info {
         display: flex;
+    }
+    .select-active {
+        background: #031d40;
     }
 }
 
