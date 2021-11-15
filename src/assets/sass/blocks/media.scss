@@ -10,8 +10,14 @@
     .chapter__row-col {
         width: 40%;
     }
+    .kinars-form {
+        margin-right: 10px;
+    }
 }
 @media (max-width: 1200px) {
+    .main-data {
+        width: 95%;
+    }
     .main__box-img {
         width: 221px;
     }
@@ -289,6 +295,23 @@
     }
     .messenger-col:nth-child(1) {
         width: 40%;
+    }
+
+    .main__kinars-col {
+        .messenger-col:first-child {
+            width: 100%;
+            display: block;
+        }
+    }
+    .main__kinars-wrapp {
+        flex-direction: column;
+    }
+
+    .reviews__wrapp {
+        padding-left: 109px;
+    }
+    .reviews__wrapp-inner {
+        width: 100%;
     }
 }
 @media (max-width: 768px) {
@@ -609,6 +632,14 @@
             padding-left: 30px;
         }
     }
+    .reviews__wrapp {
+        padding-left: 53px;
+    }
+
+    .reviews-mess-col .reviews__row-img {
+        width: 12px;
+        height: 12px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -624,6 +655,50 @@
     .choise-search-input {
         padding-left: 10px;
     }
+
+    .reviews-select {
+        font-size: 12px;
+        padding: 5px 38px 7px 11px;
+    }
+    .reviews__wrapp {
+        padding-left: 0;
+    }
+
+    .reviews-mess-col-2 {
+        font-size: 12px;
+    }
+    .reviews-mess-col {
+        font-size: 12px;
+    }
+    .reviews-message {
+        font-size: 10px;
+    }
+
+    .reviews-mess-row .avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .reviews__container-inner {
+        width: 180px;
+    }
+    .reviews__ball-span {
+        padding-left: 0;
+    }
+
+    .main__kinars-col:nth-last-child(1),
+    .main-data,
+    .kinars-form {
+        margin-left: -50px;
+    }
+    .messenger-message {
+        width: 100%;
+    }
+
+    .reviews__row-line {
+        width: 40px;
+        margin-right: 5px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -633,6 +708,9 @@
     .finance-table-body .finance-table-col,
     .finance-table-head .finance-table-col {
         font-size: 10px;
+    }
+    .messenger-avatar {
+        display: none;
     }
 }
 
