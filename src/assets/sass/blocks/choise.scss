@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    padding: 0 89px 39px;
+    padding: 0 0 39px 89px;
 }
 
 .choise-select {
@@ -176,7 +176,9 @@
 }
 
 .choice-col:nth-child(2) {
-    width: 690px;
+    width: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .choice-col:nth-child(3) {

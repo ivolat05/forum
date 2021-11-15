@@ -118,7 +118,41 @@
     }
 }
 
+@media (max-width: 1155px) {
+    .choise-filter {
+        flex-wrap: wrap;
+    }
+    .choise-search {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .main__choise-wrapp {
+        flex-direction: column-reverse;
+    }
+
+    .main__choise-col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .main__choise-content {
+        width: 100%;
+    }
+}
+
 @media (max-width: 992px) {
+    .choise-filter {
+        padding-left: 0;
+    }
+
+    .choise-head .choise__table-row,
+    .choise-body .choise__table-row {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .buy-table-body .buy__table-row,
     .buy-table-head .buy__table-row {
         padding-right: 5px;
@@ -258,6 +292,39 @@
     }
 }
 @media (max-width: 768px) {
+    .choice-col:first-child {
+        width: 120px;
+    }
+
+    .choise-body .choice-col {
+        font-size: 12px;
+    }
+
+    .choise-body .buy__status {
+        font-size: 10px;
+    }
+
+    .choise-body .buy__name {
+        font-size: 12px;
+    }
+
+    .choice-col:nth-child(4) {
+        width: 86px;
+    }
+
+    .choise-head .choice-col {
+        font-size: 14px;
+    }
+    .main__choise-conteiner {
+        flex-direction: column;
+        width: 170px;
+        margin: 0 auto;
+    }
+    .main__choise-btn,
+    .main__choise-btn-2 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
     .buy-table-col:nth-child(3) {
         width: 165px;
     }
@@ -343,7 +410,32 @@
     }
 }
 
+@media (max-width: 688px) {
+    .choise-label {
+        width: 100%;
+        margin-top: 30px;
+        .choise-label-span {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .choise-select {
+        width: 100%;
+        margin-right: 0;
+    }
+    .choise-search {
+        width: 100%;
+    }
+}
+
 @media (max-width: 576px) {
+    .main__choise-col {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
     .buy-table-col:first-child {
         width: 67px;
     }
@@ -512,9 +604,32 @@
             margin-bottom: 20px;
         }
     }
+    .main-choise {
+        .main-wrapper {
+            padding-left: 30px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .choise-label {
+        .choise-label-span {
+            padding-left: 10px;
+        }
+    }
+
+    .choise-select {
+        padding-left: 10px;
+    }
+    .choise-search-input {
+        padding-left: 10px;
+    }
 }
 
 @media (max-width: 400px) {
+    .choice-col:nth-child(4) {
+        width: 135px;
+    }
     .finance-table-body .finance-table-col,
     .finance-table-head .finance-table-col {
         font-size: 10px;
