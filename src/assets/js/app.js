@@ -6,6 +6,15 @@ $('.popup-content').magnificPopup({
     type: 'inline'
 });
 
+$(".scroll-link").click(function () {
+    var target = $(this).attr('href');
+    $('html, body').animate({
+        scrollTop: $(target).offset().top
+    }, 2500);
+    return false;
+});
+
+
 const menuBurger = document.querySelector('.menu__burger');
 
 const tabsBtn = document.querySelectorAll('.login-tab');
