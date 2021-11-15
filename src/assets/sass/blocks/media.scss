@@ -513,6 +513,14 @@
 }
 
 @media (max-width: 576px) {
+    .login {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .login-tab {
+        font-size: 20px;
+    }
     .chat-row {
         padding-left: 10px;
         padding-right: 10px;
@@ -822,6 +830,14 @@
     .user-reviews .reviews-mess-col .reviews__row-img {
         width: 10px;
         height: 10px;
+    }
+
+    .login-captcha .captcha {
+        width: 240px;
+    }
+    .login-tab {
+        width: 50%;
+        font-size: 15px;
     }
 }
 
