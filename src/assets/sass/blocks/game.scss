@@ -60,7 +60,7 @@
     display: block;
 }
 
-.game-row-link:nth-child(2) {
+.game-row-link {
     position: relative;
     &::before {
         content: "";
@@ -74,6 +74,15 @@
         background: #7ba9de;
     }
 }
+
+.game-row-link:nth-child(1) {
+    position: relative;
+    &::before {
+        width: 0;
+        height: 0;
+    }
+}
+
 .game-row-link {
     font-weight: 500;
     font-size: 16px;
@@ -147,7 +156,7 @@
 }
 
 .warf {
-    width: 44%;
+    width: 410px;
 }
 
 .game-buy-fix {

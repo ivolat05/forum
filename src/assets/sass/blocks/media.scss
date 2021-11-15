@@ -139,6 +139,9 @@
 }
 
 @media (max-width: 1155px) {
+    .game-list-title {
+        padding-left: 30px;
+    }
     .choise-filter {
         flex-wrap: wrap;
     }
@@ -170,6 +173,9 @@
 }
 
 @media (max-width: 992px) {
+    .game__list-wrapp {
+        max-width: 758px;
+    }
     .choise-filter {
         padding-left: 0;
     }
@@ -357,6 +363,9 @@
     }
 }
 @media (max-width: 768px) {
+    .game__list-wrapp {
+        max-width: 505px;
+    }
     .user-wrapp-inner {
         flex-direction: column;
     }
@@ -504,6 +513,10 @@
 }
 
 @media (max-width: 576px) {
+    .chat-row {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .main__choise-col {
         width: 100%;
         img {
@@ -702,6 +715,17 @@
 }
 
 @media (max-width: 500px) {
+    .game__list-wrapp {
+        max-width: 320px;
+        align-items: center;
+        justify-content: center;
+    }
+    .warf {
+        width: 280px;
+    }
+    .game__box-row {
+        flex-wrap: wrap;
+    }
     .choise-label {
         .choise-label-span {
             padding-left: 10px;
@@ -765,6 +789,11 @@
 }
 
 @media (max-width: 400px) {
+    .chat-row {
+        .avatar {
+            display: none;
+        }
+    }
     .choice-col:nth-child(4) {
         width: 135px;
     }
