@@ -86,6 +86,26 @@
     .option-page {
         width: 70%;
     }
+
+    .messenger-data {
+        padding-left: 15px;
+    }
+
+    .messenger__box-btn {
+        font-size: 12px;
+        margin-right: 5px;
+        padding: 10px 7px 10px 54px;
+    }
+
+    .messenger__box-btn-2 {
+        padding: 5px 6px 9px;
+    }
+
+    .messenger-head {
+        .main-content-title {
+            font-size: 25px;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -206,8 +226,34 @@
         padding-left: 0;
         padding-right: 0;
     }
+    .messenger-data {
+        padding-left: 15px;
+    }
+    .messenger-col:nth-last-child(1) {
+        display: none;
+    }
+    .messenger-col:nth-child(2) {
+        width: 60%;
+    }
+    .messenger-col:nth-child(1) {
+        width: 40%;
+    }
 }
 @media (max-width: 768px) {
+    .messenger-col:nth-child(2) {
+        .messenger-head .messenger__message-text,
+        .messenger-head .messenger__message-name {
+            display: none;
+        }
+        width: 100%;
+    }
+    .messenger-col:nth-child(1) {
+        width: 100%;
+    }
+    .messenger-wrapp {
+        flex-direction: column;
+    }
+
     .regulations-row .regulat-col-1 {
         padding-right: 15px;
     }
