@@ -106,9 +106,27 @@
             font-size: 25px;
         }
     }
+
+    .buy-table-col:nth-child(3) {
+        width: 165px;
+    }
+    .buy-table-col:first-child {
+        width: 129px;
+    }
+    .buy-table-col:nth-child(4) {
+        width: 147px;
+    }
 }
 
 @media (max-width: 992px) {
+    .buy-table-body .buy__table-row,
+    .buy-table-head .buy__table-row {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .buy-avatar {
+        display: none;
+    }
     .container-2 {
         padding-left: 15px;
         padding-right: 15px;
@@ -240,6 +258,24 @@
     }
 }
 @media (max-width: 768px) {
+    .buy-table-col:nth-child(3) {
+        width: 165px;
+    }
+    .buy-table-col:first-child {
+        width: 129px;
+    }
+    .buy-table-col:nth-child(4) {
+        width: 147px;
+    }
+
+    .buy-table-body .buy-table-col,
+    .buy-table-head .buy-table-col {
+        font-size: 12px;
+        .buy-table-p {
+            font-size: 10px;
+        }
+    }
+
     .messenger-col:nth-child(2) {
         .messenger-head .messenger__message-text,
         .messenger-head .messenger__message-name {
@@ -308,6 +344,36 @@
 }
 
 @media (max-width: 576px) {
+    .buy-table-col:first-child {
+        width: 67px;
+    }
+    .buy-table-col:nth-last-child(1) {
+        width: 50px;
+    }
+    .buy-table-col:nth-last-child(2) {
+        width: 50px;
+    }
+    .buy-table-body,
+    .buy-table-head {
+        .buy__table-row {
+            .buy-table-col:nth-child(4) {
+                display: none;
+            }
+        }
+    }
+
+    .buy-table-col:nth-child(3) {
+        width: 82px;
+    }
+
+    .buy-table-col:nth-child(4) {
+        width: 82px;
+    }
+
+    .buy-table-col:nth-child(5) {
+        width: 55px;
+    }
+
     .finance-table-body .finance-table-col,
     .finance-table-head .finance-table-col {
         font-size: 12px;
