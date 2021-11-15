@@ -13,3 +13,11 @@ mainBurger.addEventListener('click', () => {
     mainBurger.classList.toggle('burger__active');
 
 })
+
+const entranceRegBtn = document.querySelector('.entrance-reg-btn');
+entranceRegBtn.onclick = () => {
+    const entranceRegistration = document.querySelector('.entrance-registration');
+    const entranceForm = document.querySelectorAll('.entrance-form');
+    entranceForm[0].classList.remove('entrance-active');
+    entranceRegistration.classList.add('entrance-active');
+};

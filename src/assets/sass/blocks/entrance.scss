@@ -1,11 +1,8 @@
 .entrance {
-    width: 924px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    max-width: 924px;
     background: #011631;
     border-radius: 20px;
+    margin: 0 auto;
 }
 
 .entrance-form {
@@ -35,13 +32,14 @@
 }
 
 .entrance-col-1 {
-    width: 297px;
+    width: 35%;
     background: #031d40;
     padding: 40px 11px 0 37px;
     font-size: 1.125rem;
     line-height: 21px;
 }
 .entrance-col-2 {
+    width: 60%;
     display: flex;
     align-items: start;
     flex-direction: column;
@@ -51,7 +49,7 @@
     padding-left: 23px;
 }
 .entrance-input {
-    width: 580px;
+    width: 95%;
     height: 54px;
     color: #000;
     padding-left: 10px;
