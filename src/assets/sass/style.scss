@@ -19,18 +19,6 @@ body {
     background: linear-gradient(180deg, #001126 0%, #01002d 100%) no-repeat center center, #01002d;
 }
 
-.container {
-    max-width: 1457px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-
-.container-2 {
-    max-width: 1457px;
-    padding: 0 89px;
-    margin: 0 auto;
-}
-
 @media (min-width: 576px) {
     .container {
         max-width: 540px;
@@ -56,6 +44,17 @@ body {
     .container {
         max-width: 1350px;
     }
+}
+.container {
+    max-width: 1457px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-2 {
+    max-width: 1457px;
+    padding: 0 89px;
+    margin: 0 auto;
 }
 
 ul {

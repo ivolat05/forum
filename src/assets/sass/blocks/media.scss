@@ -182,8 +182,20 @@
     .forum-col {
         width: 100%;
     }
+
+    .regulations-head .regulations-contain,
+    .regulations-row .regulations-contain,
+    .regulation-wrapp,
+    .regulations-title {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 @media (max-width: 768px) {
+    .regulations-row .regulat-col-1 {
+        padding-right: 15px;
+    }
+
     .option__wrapp-inner,
     .option-page {
         width: 75%;
@@ -234,6 +246,10 @@
 }
 
 @media (max-width: 576px) {
+    .regulat-col-1 {
+        width: 55%;
+    }
+
     .menu__burger-line,
     .main__burger-line {
         width: 40px;
