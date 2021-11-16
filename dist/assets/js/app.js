@@ -17,10 +17,29 @@ $(".scroll-link").click(function () {
 });
 
 
+const btnReg = document.querySelector('.btn-reg');
+
+btnReg.onclick = () => {
+    let entranceRegistration = document.querySelector('.entrance-registration');
+    let entranceFormTwo = document.querySelector(".entrance-form-2");
+    entranceFormTwo.classList.remove('entrance-active');
+    entranceRegistration.classList.add('entrance-active');
+}
+
+const btn = document.querySelector('.btn');
+
+btn.onclick = () => {
+    let entranceRegistration = document.querySelector('.entrance-registration');
+    let entranceFormTwo = document.querySelector(".entrance-form-2");
+    entranceFormTwo.classList.add('entrance-active');
+    entranceRegistration.classList.remove('entrance-active');
+}
+
 const menuBurger = document.querySelector('.menu__burger');
 
 const tabsBtn = document.querySelectorAll('.login-tab');
 const tabsItem = document.querySelectorAll('.login-list');
+
 
 tabsBtn.forEach((item) => {
     item.addEventListener('click', function () {
@@ -41,6 +60,7 @@ tabsBtn.forEach((item) => {
 });
 
 const formSelectInfo = document.querySelectorAll('.form__select-info');
+
 
 
 formSelectInfo.forEach((item) => {
