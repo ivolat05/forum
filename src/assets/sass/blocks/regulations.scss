@@ -90,3 +90,11 @@
 
     padding: 49px 0 18px 89px;
 }
+
+.reg-row:last-child .entrance-col-2 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.reg-row:nth-child(3) .entrance-label {
+    padding-bottom: 53px;
+}

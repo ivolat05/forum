@@ -6,7 +6,11 @@
     padding: 89px 0 50px;
 }
 .main-regulation {
-    padding: 89px 0 75px;
+    padding-top: 89px;
+    padding-bottom: 50px;
+    .main-wrapper {
+        padding-bottom: 0;
+    }
 }
 
 .main-finance {
@@ -36,6 +40,10 @@
     top: 50%;
     cursor: pointer;
     margin-right: 24px;
+    &::after,
+    &::before {
+        transition: 0.4s;
+    }
 }
 
 .main__burger::before,
@@ -76,6 +84,13 @@
 .main__burger::after,
 .menu__burger::after {
     bottom: 0;
+}
+
+.main__burger-hover:hover {
+    .main__burger::before,
+    .main__burger::after {
+        right: 15px;
+    }
 }
 
 .main-wrapper {
